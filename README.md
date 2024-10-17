@@ -14,8 +14,10 @@ A Note-taking app built with Kotlin, Jetpack Compose, and Realm Database. This p
 - Material Design 3 🎨
 
 ## 📸 Screenshots
+
 ### 🌙 Dark Mode
 <p align="center"> <img src="./Screenshot 0 Dark.png" alt="Dark Mode Screenshot 1" width="180" /> <img src="./Screenshot 1 Dark.png" alt="Dark Mode Screenshot 2" width="180" /> </p>
+
 ### ☀️ Light Mode
 <p align="center"> <img src="./Screenshot 0 Light.png" alt="Light Mode Screenshot 1" width="180" /> <img src="./Screenshot 1 Light.png" alt="Light Mode Screenshot 2" width="180" /> </p>
 
