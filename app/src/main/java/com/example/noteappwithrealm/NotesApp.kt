@@ -78,7 +78,7 @@ fun SearchBar(query: String, onQueryChange: (String) -> Unit) {
             .padding(4.dp),
         singleLine = true,
         shape = RoundedCornerShape(12.dp),
-        colors = TextFieldDefaults.textFieldColors(
+        colors = TextFieldDefaults.colors(
             focusedIndicatorColor = Color.Transparent,   // Remove focused underline
             unfocusedIndicatorColor = Color.Transparent  // Remove unfocused underline
         )
@@ -111,7 +111,7 @@ fun AddOrEditNote(viewModel: NoteViewModel, noteToEdit: Note? = null) {
                     .padding(bottom = 8.dp),
                 singleLine = true,
                 shape = RoundedCornerShape(8.dp),
-                colors = TextFieldDefaults.textFieldColors(
+                colors = TextFieldDefaults.colors(
                     focusedIndicatorColor = Color.Transparent,   // Remove focused underline
                     unfocusedIndicatorColor = Color.Transparent  // Remove unfocused underline
                 )
@@ -125,7 +125,7 @@ fun AddOrEditNote(viewModel: NoteViewModel, noteToEdit: Note? = null) {
                     .fillMaxWidth()
                     .padding(bottom = 16.dp),
                 shape = RoundedCornerShape(8.dp),
-                colors = TextFieldDefaults.textFieldColors(
+                colors = TextFieldDefaults.colors(
                     focusedIndicatorColor = Color.Transparent,   // Remove focused underline
                     unfocusedIndicatorColor = Color.Transparent  // Remove unfocused underline
                 )
